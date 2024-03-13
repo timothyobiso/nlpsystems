@@ -17,7 +17,7 @@ Bottleneck @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs
 Brotli @ file:///Users/cbousseau/work/recipes/ci_py311/brotli-split_1677936346777/work
 cachetools @ file:///tmp/build/80754af9/cachetools_1619597386817/work
 catalogue @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_80m8_830f9/croot/catalogue_1703688152663/work
-certifi @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_3bzbkiv4h_/croot/certifi_1707229182618/work/certifi
+certifi @ file:///Users/cbousseau/work/recipes/ci_py311/certifi_1677903144932/work/certifi
 cffi @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_b4nang6w_y/croot/cffi_1700254307954/work
 charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1698833585322/work
 click @ file:///home/conda/feedstock_root/build_artifacts/click_1692311806742/work
@@ -35,6 +35,7 @@ executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
 fastapi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_ab51gv9t42/croot/fastapi_1693295410365/work
 fastjsonschema==2.19.1
 Flask @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_b4a2svwk0s/croot/flask_1702980026964/work
+Flask-SQLAlchemy==3.1.1
 fqdn==1.5.1
 gitdb @ file:///tmp/build/80754af9/gitdb_1617117951232/work
 GitPython @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_4a22a3qbjg/croot/gitpython_1696936997893/work
@@ -126,6 +127,7 @@ soupsieve @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_
 spacy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_18ske9dh81/croot/spacy_1704840104347/work
 spacy-legacy @ file:///home/conda/feedstock_root/build_artifacts/spacy-legacy_1674550301837/work
 spacy-loggers @ file:///home/conda/feedstock_root/build_artifacts/spacy-loggers_1694527114282/work
+SQLAlchemy==2.0.28
 srsly @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_38h6t42apc/croot/srsly_1703692316557/work
 stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
 starlette @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_7feeoam7sd/croot/starlette-recipe_1692980426894/work

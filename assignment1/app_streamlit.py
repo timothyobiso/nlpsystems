@@ -7,11 +7,12 @@ import graphviz
 from collections import Counter
 
 example = (
-    "My name is Percy Jackson.\n"
-    "I'm twelve years old. Until a few months ago, I was a boarding student at Yancy Academy, "
-    "a private school for troubled kids in upstate New York.\n"
-    "Am I a troubled kid?\n"
-    "Yeah. You could say that.")
+    "When Sebastian Thrun started working on self-driving cars at "
+        "Google in 2007, few people outside of the company took him "
+        "seriously. “I can tell you very senior CEOs of major American "
+        "car companies would shake my hand and turn away because I wasn’t "
+        "worth talking to,” said Thrun, in an interview with Recode earlier "
+        "this week.")
 
 st.markdown("# Named Entity Recognition")
 text = st.text_area("Enter some text", height=150, value=example)
