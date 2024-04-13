@@ -1,0 +1,20 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"/>
+  </head>
+
+  <body>
+
+    <h2>spaCy entity parsing</h2>
+    <a href="{{ url_for('index', )}}">Query</a>
+
+    <h2>spaCy Dependency Parsing DB</h2>
+
+    <div>
+      {{ table | safe }}
+    </div>
+
+  </body>
+
+</html>
