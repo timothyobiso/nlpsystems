@@ -31,7 +31,7 @@ $ curl http://127.0.0.1:8000/dep -H "Content-Type: application/json" -d@input.js
 Both `/ner` and `/dep` accept a "pretty" parameter to format the data nicely:
 ```bash
 $ curl http://127.0.0.1:8000/ner?pretty=true -H "Content-Type: application/json" -d@input.json
-
+```
 
 To run the Docker image for the Flask app, run the following command:
 ```bash
