@@ -4,6 +4,7 @@ from ner import *
 from collections import Counter
 
 app = Flask(__name__)
+app.secret_key = "djhsfbdjhfjsbf sjhfbjhbwieufyghrysgfbsuyfgwei"
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
@@ -72,4 +73,5 @@ def db_page():
 
 
 if __name__ == '__main__':
+    app.config['SESSION_TYPE'] = 'filesystem'
     app.run(debug=True)

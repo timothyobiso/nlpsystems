@@ -8,6 +8,7 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 RUN python -m spacy download en_core_web_sm
 
-EXPOSE 5000
+ENV FLASK_APP="app_flask.py"
 
-CMD ["python", "app_flask.py"]
+
+CMD ["python", "-m", "flask", "run", "--host=0.0.0.0"]
