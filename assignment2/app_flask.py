@@ -6,6 +6,7 @@ from collections import Counter
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.secret_key = "7843dfhjbsiursuv4r7n4e8yvni8409"
 db = SQLAlchemy(app)
 
 LENGTH = 200
